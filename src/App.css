@@ -1,0 +1,38 @@
+*{
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+span{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 96px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+button{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.App{
+    position: relative;
+    overflow: hidden;
+}
+

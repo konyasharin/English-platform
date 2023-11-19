@@ -1,0 +1,17 @@
+.last-modules{
+    margin-top: 180px;
+    position: relative;
+}
+
+.last-modules img{
+    top: -120px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.last-modules h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
