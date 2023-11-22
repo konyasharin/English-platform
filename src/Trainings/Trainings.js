@@ -3,7 +3,9 @@ import "./Trainings.css"
 function Trainings(){
   return(
     <section className="container trainings">
-      <Training/>
+      <Training backgroundColor={"#FFB84D"} title={"Заучивание"} text={"test"} btnColor={"#B38136"}/>
+      <Training backgroundColor={"#4D4DFF"} title={"Повторение"} text={"test"} btnColor={"#6A36B3"}/>
+      <Training backgroundColor={"#C9C7C5"} title={"Скоро..."} text={"test"} btnColor={"#737373"}/>
     </section>
   )
 }

@@ -8,6 +8,7 @@ import Folders from "./FoldersAndModules/Folders";
 import Modules from "./FoldersAndModules/Modules";
 import ToMain from "./ToMain/ToMain";
 import Trainings from "./Trainings/Trainings";
+import Profile from "./Profile/Profile";
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/trainings" element={<Trainings />}/>
           <Route path="/folders" element={<Folders/>}/>
           <Route path="/modules" element={<Modules/>}/>
+          <Route path="/profile" element={<Profile img={"/avatar.png"}/>}/>
         </Routes>
         <Footer/>
       </div>

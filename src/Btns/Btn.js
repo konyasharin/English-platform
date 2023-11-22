@@ -1,3 +1,4 @@
+import "./Btn.css"
 function Btn(props){
   let styles = {
     btn: {
@@ -5,7 +6,7 @@ function Btn(props){
     }
   }
   return(
-    <button style={styles.btn}>{props.text}</button>
+    <button style={styles.btn} className="btn">{props.text}</button>
   )
 }
 
