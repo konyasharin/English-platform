@@ -10,7 +10,7 @@ function Training(props){
     <div className="training-block" style={styles.block}>
       <h3>{props.title}</h3>
       <span>{props.text}</span>
-      <Btn text={"Начать тренировку"} backgroundColor={props.btnColor}/>
+      <Btn text={"Начать тренировку"} backgroundColor={props.btnColor} color={"#000000"}/>
     </div>
   )
 }
